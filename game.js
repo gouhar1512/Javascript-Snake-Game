@@ -52,4 +52,5 @@ function openFullscreen() {
   var elem = document.documentElement;
   if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
 }
+
 document.getElementById("game-board").addEventListener("click", openFullscreen);
